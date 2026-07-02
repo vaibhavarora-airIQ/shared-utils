@@ -1,5 +1,5 @@
 {
-  "name": "my-shared-utils",
+  "name": "shared-utils",
   "version": "1.0.0",
   "description": "Shared utility functions and React components for frontend monorepo",
   "main": "dist/index.js",
