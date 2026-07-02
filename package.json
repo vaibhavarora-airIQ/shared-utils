@@ -1,0 +1,33 @@
+{
+  "name": "my-shared-utils",
+  "version": "1.0.0",
+  "description": "Shared utility functions and React components for frontend monorepo",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "utils",
+    "shared",
+    "frontend",
+    "react",
+    "components"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0"
+  },
+  "files": [
+    "dist",
+    "src"
+  ]
+}
